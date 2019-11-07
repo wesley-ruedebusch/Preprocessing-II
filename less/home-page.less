@@ -17,9 +17,6 @@
     padding: 0 4%;
   }
 
-  @media @tablet {
-    padding: 0 4%;
-  }
 
   .content-section {
     margin: 30px 0;
@@ -86,10 +83,6 @@
       width: 100%;
     }
 
-    @media @tablet {
-      width: 80%;
-    }
-
     @media @desktop {
       width: 100%;
     }
@@ -112,10 +105,6 @@
       .displayFlex(center, column, center);
     }
 
-    @media @tablet {
-      .displayFlex(center, column, center);
-    }
-
     @media @desktop {
       .displayFlex(space-between, row, center);
     }
@@ -128,20 +117,16 @@
         width: 80%;
       }
 
-      @media @tablet {
-        width: 80%;
-      }
-
       @media @desktop {
         widfth: 30%;
       }
     }
 
     .btn {
-      .btnStyles();
-
-      @media @mobile {
-        width: 100%;
+      .btnStyles {
+        @media @mobile {
+          width: 100%;
+        }
       }
     }
   }

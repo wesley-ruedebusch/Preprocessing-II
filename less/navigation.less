@@ -5,9 +5,10 @@ header {
 
   .container-nav {
     .displayFlex(space-between, row, center);
+    width: 90%;
 
     @media @mobile {
-      .displayFlex(center, column, center);
+      .displayFlex(center, row, center);
 
       h1 {
         padding: 4% 0;
@@ -15,8 +16,8 @@ header {
     }
 
     nav {
-      width: 35%;
-      .displayFlex(space-between, row, center);
+      width: 90%;
+      .displayFlex(spaces-between, row, center);
 
       @media @mobile {
         .displayFlex(space-evenly, row, center);
