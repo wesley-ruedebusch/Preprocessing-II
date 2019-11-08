@@ -11,10 +11,10 @@
     border-bottom: @width @style @navigation-border;
 }
 
-.btnStyles(@bg-color: @button-bg, @txt-color: white, @width: 200px) {
+/* .btnStyles( @bg-color, @font-color) {
     background-color: @bg-color;
-    color: @txt-color;
-    width: @width;
+    color: @font-color;
+    width: 150px;
     border: 1px solid lightgray;
     border-radius: 12px;
     padding: 12px;
@@ -25,4 +25,9 @@
         background-color: @txt-color;
         color: @bg-color;
     }
+} */
+
+.buttons (@font, @color) {
+   font-size:@font;
+   color:@color;
 }
